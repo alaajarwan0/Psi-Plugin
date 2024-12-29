@@ -1,9 +1,14 @@
 {
   "name": "Psi Figma Plugin",
-  "id": "73780526074777809200",
+  "id": "1455218721723156677",
   "api": "1.0.0",
   "main": "main.js",
   "ui": "index.html",
   "editorType": ["figma", "figjam"],
-  "documentAccess": "dynamic-page"
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+  "allowedDomains": ["none"],
+  "reasoning": "The plugin does not require any network access."
+}
+
 }
